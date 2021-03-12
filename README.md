@@ -1,16 +1,16 @@
-# Basic Maven Example
+[![Build Status](https://travis-ci.org/chrishantha/sample-java-programs.svg?branch=master)](https://travis-ci.org/chrishantha/sample-java-programs)
 
-This simple Maven project is importing JaCoCo's coverage report. For multi-module project example 
-see [multi-module Maven project](../maven-multimodule/README.md)
+Sample Java Programs
+====================
 
-## Usage
+This repository contains some sample programs. All are Maven projects and can be run directly using "java -jar"
 
-* Build the project, execute all the tests and analyze the project with SonarQube Scanner for Maven(from root  of the project):
+## How to build
 
-```shell
-        mvn clean verify sonar:sonar
-```
+Run `mvn clean install` to build all sample programs
 
-## Documentation
+## License
 
-[SonarScanner for Maven](https://docs.sonarqube.org/latest/analysis/scan/sonarscanner-for-maven/)
+Copyright (C) 2015 M. Isuru Tharanga Chrishantha Perera
+
+Licensed under the Apache License, Version 2.0
